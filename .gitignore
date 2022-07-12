@@ -129,3 +129,6 @@ dmypy.json
 
 # archives
 *.zip
+
+# pycharm congig
+.idea
