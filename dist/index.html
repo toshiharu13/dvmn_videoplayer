@@ -4,25 +4,47 @@
     <meta charset="UTF-8">
     <title>vidplr</title>
     <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="test-block.css">
     <style type="text/css">
         .background-black{background-color: black}
         .player-button{border-style:none; cursor:pointer;  color: white; background-color: transparent;}
         .player-box{width: 800px; height: 600px;}
-        .player-persent-box{width: 100%; height: 100%;}
+        .player-persent-box{width: 100%; height: 50%;}
         .shadow {box-shadow: 0 0 10px rgba(0,0,0,0.9);}
     </style>
 </head>
 <body>
-<div id="player" class="player-box shadow">
-    <div class="js-video-container player-persent-box"></div>
-    <div class="background-black">
+<div id="player" class="player-box shadow flex-container">
+    <div class="js-video-container" style="flex: 0 0 200px;"></div>
+
+    <div style="flex-direction: row; background-color: red; flex: 0 0 400px;">
+          <!-- первая колонка -->
+      <div class="container" style="min-height: 10%; width: 5%;">
+        <div class="first-block">1</div>
+        <div class="second-block">2</div>
+      </div>
+
+      <!-- вторая колонка -->
+      <div class="container" style="min-height: 20%; width: 20%;">
+        <div class="first-block">1</div>
+        <div class="second-block">2</div>
+      </div>
+
+      <!-- третья колонка -->
+      <div class="container" style="min-height: 30%; width: 40%;">
+        <div class="first-block" style="height: 100%;">1</div>
+        <div class="second-block">2</div>
+      </div>
+
+    </div>
+    <!--<div class="background-black">
         <button class="js-play-button player-button">
             <i class="fa fa-play" aria-hidden="true"></i>
         </button>
         <button class="js-pause-button player-button" hidden>
             <i class="fa fa-pause" aria-hidden="true"></i>
         </button>
-    </div>
+    </div>-->
 </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
