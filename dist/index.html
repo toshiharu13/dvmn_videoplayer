@@ -17,26 +17,27 @@
 <div id="player" class="player-box shadow flex-container">
     <div class="js-video-container" style="flex: 0 0 300px;"></div>
 
-    <div style="flex-direction: row; flex: 0 0 300px;">
+    <div style="flex-grow: 1;">
           <!-- первая колонка -->
       <div class="container" style="min-height: 10%; width: 5%;">
-        <div class="first-block">1</div>
+        <div class="first-block" style="flex-grow: 0;">1</div>
         <div class="second-block">2</div>
       </div>
 
       <!-- вторая колонка -->
-      <div class="container flex-container" style="min-height: 30%; width: 30%;">
-        <div class="first-block" style="flex: 0 0 60px;">1</div>
+      <div class="container" style="min-height: 40%; width: 30%;">
+        <div class="first-block" style="flex-grow: 2;">1</div>
         <div class="second-block">2</div>
       </div>
 
       <!-- третья колонка -->
-      <div class="container flex-container" style="min-height: 40%; width: 40%;">
-        <div class="first-block" style="flex: 0 0 100px;">1</div>
+      <div class="container" style="min-height: 50%; width: 40%;">
+        <div class="first-block" style="flex-grow: 3;">1</div>
         <div class="second-block">2</div>
       </div>
 
     </div>
+
     <!--<div class="background-black">
         <button class="js-play-button player-button">
             <i class="fa fa-play" aria-hidden="true"></i>
