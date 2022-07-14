@@ -4,6 +4,7 @@
 }
 .buttons-box {
   background-color: black;
+  display: flex;
 }
 .player-button {
   border-style: none;
