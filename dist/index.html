@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>vidplr</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="stylesheet" href="font-awesome.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="stylesheet" href="./font-awesome.min.css">
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
 <div id="player" class="player-container shadow flex-container">
-    <div class="js-video-container" style="flex-grow: 1;"></div>
+    <div class="js-video-container flex-grow"></div>
     <div  class="buttons-container">
         <div>
           <button class="js-play-button players-buttons-style">
@@ -23,15 +23,15 @@
         </div>
         <div>
           <button class="js-mute-button players-buttons-style" hidden>
-            <i class="fa fa-volume-off fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-volume-up fa-lg" aria-hidden="true"></i>
           </button>
         </div>
         <div>
           <button class="js-volume-button players-buttons-style" hidden>
-            <i class="fa fa-volume-up fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-volume-off fa-lg" aria-hidden="true"></i>
           </button>
         </div>
-        <div style="flex-grow: 1"></div>
+        <div class="flex-grow"></div>
         <div>
           <button class="js-fullscreen-button players-buttons-style">
             <i class="fa fa-arrows-alt fa-lg" aria-hidden="true"></i>
