@@ -1,12 +1,8 @@
-.flex-container {
-  display: flex;
-  flex-direction: column;
-}
 .buttons-container {
   background-color: black;
   display: flex;
 }
-.players-buttons-style {
+.players-buttons {
   border-style: none;
   cursor: pointer;
   color: white;
@@ -15,9 +11,10 @@
   margin-bottom: 5px;
   height: 30px;
   width: 30px;
-  /*border: 1px solid*/
 }
 .player-container {
+  display: flex;
+  flex-direction: column;
   width: 800px;
   height: 600px;
   box-shadow: 0 0 10px rgba(0,0,0,0.9);
