@@ -11,8 +11,10 @@
   cursor: pointer;
   color: white;
   background-color: transparent;
-  margin-right: 5px;
-  line-height: 130%
+  margin-right: 15px;
+  margin-bottom: 20px;
+  height: 5px;
+  width: 5px;
 }
 .player-container {
   width: 800px;
