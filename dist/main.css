@@ -11,10 +11,11 @@
   cursor: pointer;
   color: white;
   background-color: transparent;
-  margin-right: 15px;
-  margin-bottom: 20px;
-  height: 5px;
-  width: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  height: 30px;
+  width: 30px;
+  /*border: 1px solid*/
 }
 .player-container {
   width: 800px;
